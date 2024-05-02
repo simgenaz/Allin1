@@ -3,11 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allin1</title>
+    <title>Allin1 </title> 
+    <meta name="keywords" content="Dont know yet">
+    <meta name="description" content="Dont know yet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    
-    <h1>Hello</h1>
+
+    <header class="bg-dark-blue">
+    <div class="container">
+    <nav id="navbar">
+        <h1 class="heading-small">Name & Surname</h1>
+        <ul>
+            <li><a href="#home">Home Page</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    </header>
+
+    <section id="home">
+        <img src="https://www.birlikteihracat.com/content/images/2022/03/Profil-fotog-raf-n--sec-.svg" style="width: 200px;" alt="Simge">
+        <div class="name text-center">
+            <h2 class="heading-big">Name & Surname</h2>
+            <p>About you</p>
+        </div>
+
+     
+
+    </section>
+    <section id="education" class="bg-dark-blue">
+
+        <h3 class="text-center heading-medium">Education</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>School 1 </h3>
+                <p>About School</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>School 2</h3>
+                <p>About School</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Certifications</h3>
+                <p>About Certifications</p>
+            </article>
+
+        </div>
+    </section>
+    <section id="projects">
+
+        <h3 class="text-center heading-medium">Projects</h3>
+        <div class="container">
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="https://www.birlikteihracat.com/content/images/2022/03/Profil-fotog-raf-n--sec-.svg" style="width: 200px;" alt="Project Picture">
+                        <span>5 Star </span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Project name
+                        </div>
+                        <div class="description">
+                            About project
+                        </div>
+                        <div class="languages">
+                            What languages used
+                        </div>
+                        <div class="time">
+                            How long it take
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="https://www.birlikteihracat.com/content/images/2022/03/Profil-fotog-raf-n--sec-.svg" style="width: 200px;" alt="Project Picture">
+                        <span>5 Star </span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Project name
+                        </div>
+                        <div class="description">
+                            About project
+                        </div>
+                        <div class="languages">
+                            What languages used
+                        </div>
+                        <div class="time">
+                            How long it take
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="https://www.birlikteihracat.com/content/images/2022/03/Profil-fotog-raf-n--sec-.svg" style="width: 200px;" alt="Project Picture">
+                        <span>5 Star </span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Project name
+                        </div>
+                        <div class="description">
+                            About project
+                        </div>
+                        <div class="languages">
+                            What languages used
+                        </div>
+                        <div class="time">
+                            How long it take
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+
+<div class="contact-form">
+    <form >
+        <h4 class="text-center heading-medium"> Contact Me </h4>
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input 
+            type="text" 
+            class="form-control" 
+            name="name" 
+            id="name" 
+            placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input 
+            type="text" 
+            class="form-control" 
+            name="email" 
+            id="email" 
+            placeholder="E-Mail">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea 
+            name="message" 
+            id="message" 
+            class="form-control" 
+            rows="5" 
+            placeholder="Your message...">
+        </textarea>
+        </div>
+
+        <button type="submit" class="btn btn-block"> Send </button>
+
+    </form>
+    <ul>
+        <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+</div>
+
+    </footer>
 
 </body>
 </html>
